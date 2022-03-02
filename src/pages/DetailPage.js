@@ -12,7 +12,7 @@ import Testimony from "parts/Testimony";
 import Footer from "parts/Footer";
 
 import ItemDetails from "json/itemDetails.json";
-import { checkoutBooking } from "strore/action/checkout";
+import { checkoutBooking } from "strore/actions/checkout";
 
 class DetailPage extends Component {
   componentDidMount() {

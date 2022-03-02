@@ -1,1 +1,3 @@
+export const FETCH_PAGE = "FECTH_PAGE";
+
 export const CHECKOUT_BOOKING = "CHECKOUT_BOOKING";

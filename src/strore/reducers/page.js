@@ -1,11 +1,15 @@
 /* eslint-disable import/no-anonymous-default-export */
-import { CHECKOUT_BOOKING } from "../types";
+import { FETCH_PAGE } from "../types";
 
-const initialState = null;
+const initialState = {};
+
 export default function (state = initialState, action) {
   switch (action.type) {
-    case CHECKOUT_BOOKING:
-      return action.payload;
+    case FETCH_PAGE:
+      return {
+        ...state,
+        ...action.payload,
+      };
     default:
       return state;
   }
