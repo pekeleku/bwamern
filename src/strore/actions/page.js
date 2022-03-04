@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from "configs/axios";
 import { FETCH_PAGE } from "../types";
 
 export const fetchPage = (url, page) => (dispatch) => {
